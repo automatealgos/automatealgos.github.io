@@ -7698,7 +7698,7 @@ textarea:focus-within {
 .blog__writer-designation h6 {
   font-size: 1rem;
   font-family: "Open Sans", sans-serif;
-  color: var(--title-color);
+  color: var(--title-color1);
 }
 .blog__writer-designation p {
   font-size: 1.125rem;
