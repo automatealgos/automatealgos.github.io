@@ -57,13 +57,14 @@ Tags: Crypto, Forex, and Stocks Trading Business
     -cta,
     -story,
     -sidebar,
-    -faq,
+    -faqs,
     -error,
     -servicer-details,
     -nav,
-    -roadmap,
+    -outcome,
     -comment,
     -about
+    -contact us
 
 6. Page-specific styles
     -home
@@ -79,7 +80,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
 /* @@@@@@@@@@@@@  Extend Property CSS start here  @@@@@@@@@@@@@@ */
 /*=========<<Flex property extends start>>=========*/
 @import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;500;600;700;800&amp;family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap");
-.about__content--style2 .about__content-inner, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-header, .accordion__button, .comment__author, .comment__head, .tags--style2 ul, .tags ul, .sidebar__categorie-body ul li, .sidebar__recentpost-inner, .testimonial__author, .testimonial__footer, .blog-details__action-inner, .blog__writer, .floating-content__item--style4, .floating-content__item--style2, .social, .btn-group, .footer__end-links, .footer__app-inner, .footer__app, .account__check, .contact__item-inner, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
+.about__content--style2 .about__content-inner, .outcome--style2 .outcome__upper-inner, .outcome--style1 .outcome__item-header, .accordion__button, .comment__author, .comment__head, .tags--style2 ul, .tags ul, .sidebar__categorie-body ul li, .sidebar__recentpost-inner, .testimonial__author, .testimonial__footer, .blog-details__action-inner, .blog__writer, .floating-content__item--style4, .floating-content__item--style2, .social, .btn-group, .footer__end-links, .footer__app-inner, .footer__app, .account__check, .contact__item-inner, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
   display: flex;
   flex-wrap: wrap;
 }
@@ -88,11 +89,11 @@ Tags: Crypto, Forex, and Stocks Trading Business
   justify-content: center;
 }
 
-.roadmap--style1 .roadmap__item-header, .accordion__button, .comment__head, .sidebar__categorie-body ul li, .testimonial__footer, .blog-details__action-inner, .account__check, .header-wrapper {
+.outcome--style1 .outcome__item-header, .accordion__button, .comment__head, .sidebar__categorie-body ul li, .testimonial__footer, .blog-details__action-inner, .account__check, .header-wrapper {
   justify-content: space-between;
 }
 
-.about--style3 .about__content ul li, .roadmap--style2 .roadmap__upper-inner, .comment__author, .comment__head, .sidebar__categorie-body ul li, .sidebar__recentpost-inner, .testimonial__author, .testimonial__footer, .blog-details__action-inner, .blog-details__meta ul li, .blog__writer, .floating-content__item--style4, .floating-content__item--style2, .social, .btn-group, .text-btn, .trk-btn--outline3, .trk-btn--outline22, .trk-btn--outline2, .trk-btn--left span, .trk-btn--left, .trk-btn--arrowplay, .trk-btn--defult, .footer__end-links, .footer__end-copyright, .footer__app-inner, .footer__app, .account__check, .contact__item-inner, .banner--style3 .banner__counter-inner, .subtitle, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
+.about--style3 .about__content ul li, .outcome--style2 .outcome__upper-inner, .comment__author, .comment__head, .sidebar__categorie-body ul li, .sidebar__recentpost-inner, .testimonial__author, .testimonial__footer, .blog-details__action-inner, .blog-details__meta ul li, .blog__writer, .floating-content__item--style4, .floating-content__item--style2, .social, .btn-group, .text-btn, .trk-btn--outline3, .trk-btn--outline22, .trk-btn--outline2, .trk-btn--left span, .trk-btn--left, .trk-btn--arrowplay, .trk-btn--defult, .footer__end-links, .footer__end-copyright, .footer__app-inner, .footer__app, .account__check, .contact__item-inner, .banner--style3 .banner__counter-inner, .subtitle, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
   align-items: center;
 }
 
@@ -100,13 +101,13 @@ Tags: Crypto, Forex, and Stocks Trading Business
   place-items: center;
 }
 
-.about--style3 .about__content h2, .about__content--style2 .about__content-inner h2, .about__content--style2 .about__content-details h5, .about__content-inner h2, .roadmap--style1 .roadmap__item-header h3, .accordion__button, .comment__action a, .service-details__team h5, .error__content h2, .tags--style2 ul li a, .tags ul li a, .cta__subscribe h2, .blog-details__segment-content h5, .blog-details__content h3, .blog__content h5, .feature--style1 .feature__item-content h6, .floating-content__item--style2 p, .text-btn, .account__check-forgot a, .contact__social h3, .banner--style3 .banner__counter-item p, .banner__content-heading, .page-header__content h2, .section-header h2 {
+.about--style3 .about__content h2, .about__content--style2 .about__content-inner h2, .about__content--style2 .about__content-details h5, .about__content-inner h2, .outcome--style1 .outcome__item-header h3, .accordion__button, .comment__action a, .service-details__team h5, .error__content h2, .tags--style2 ul li a, .tags ul li a, .cta__subscribe h2, .blog-details__segment-content h5, .blog-details__content h3, .blog__content h5, .feature--style1 .feature__item-content h6, .floating-content__item--style2 p, .text-btn, .account__check-forgot a, .contact__social h3, .banner--style3 .banner__counter-item p, .banner__content-heading, .page-header__content h2, .section-header h2 {
   text-transform: capitalize;
 }
 
 /*=========<<Flex property extends end>>=========*/
 /*=========<<Display property extends start>>=========*/
-.roadmap--style2 .roadmap__upper-inner::after, .cta__shape-item--2, .account__thumb img, .banner--style2 .banner__wrapper--style2::after, .swiper-nav--style2 .swiper-nav__btn {
+.outcome--style2 .outcome__upper-inner::after, .cta__shape-item--2, .account__thumb img, .banner--style2 .banner__wrapper--style2::after, .swiper-nav--style2 .swiper-nav__btn {
   display: none;
 }
 
@@ -114,7 +115,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
   display: block;
 }
 
-.about__content--style2 .about__content-inner, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-header, .accordion__button, .comment__author, .comment__head, .tags--style2 ul, .tags ul, .sidebar__categorie-body ul li, .sidebar__recentpost-inner, .testimonial__author, .testimonial__footer, .blog-details__action-inner, .blog__writer, .floating-content__item--style4, .floating-content__item--style2, .social, .btn-group, .footer__end-links, .footer__app-inner, .footer__app, .account__check, .contact__item-inner, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
+.about__content--style2 .about__content-inner, .outcome--style2 .outcome__upper-inner, .outcome--style1 .outcome__item-header, .accordion__button, .comment__author, .comment__head, .tags--style2 ul, .tags ul, .sidebar__categorie-body ul li, .sidebar__recentpost-inner, .testimonial__author, .testimonial__footer, .blog-details__action-inner, .blog__writer, .floating-content__item--style4, .floating-content__item--style2, .social, .btn-group, .footer__end-links, .footer__app-inner, .footer__app, .account__check, .contact__item-inner, .subtitle, .menu, .header-wrapper .menu-area .header-btn, .header-wrapper .menu-area, .header-wrapper, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .swiper-nav {
   display: flex;
 }
 
@@ -132,11 +133,11 @@ Tags: Crypto, Forex, and Stocks Trading Business
 
 /*=========<<Display property extends end>>=========*/
 /*=========<<Position property extends start>>=========*/
-.about__thumb--style2, .about__thumb-image img, .about__thumb-image, .about, .roadmap--style2 .roadmap__item-inner, .roadmap--style2 .roadmap__item, .roadmap--style2 .roadmap__upper-inner, .roadmap--style1 .roadmap__item-inner, .roadmap--style1 .roadmap__wrapper, .roadmap, .accordion__button-plusicon, .service-details__team, .faq__thumb--style1, .faq, .sidebar__search form, .sidebar__head, .story__thumb-inner, .story__wrapper, .story, .cta--style2, .cta__thumb, .cta__newsletter-inner, .cta__wrapper, .testimonial__wrapper, .blog-details, .blog__wrapper, .blog, .team__item-thumb, .team__item-inner, .pricing__item-top, .pricing__item, .pricing, .service__item-inner, .service, .feature--style1 .feature__wrapper, .feature--style1 .feature, .feature, .partner--gradient, .partner__wrapper, .social__link--style3, .text-btn, .trk-btn, .footer__linklist-item a, .footer__app-inner, .footer__wrapper, .footer, .account__divider--style1, .account__wrapper, .account, .contact__wrapper, .contact, .banner--style3 .banner, .banner--style3, .banner--style2 .banner__content, .banner--style2, .banner--style1, .page-header, .section-header, .menu-item-has-children > a, .header-bar, .header-section--style1, .header-section, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .form-pass {
+.about__thumb--style2, .about__thumb-image img, .about__thumb-image, .about, .outcome--style2 .outcome__item-inner, .outcome--style2 .outcome__item, .outcome--style2 .outcome__upper-inner, .outcome--style1 .outcome__item-inner, .outcome--style1 .outcome__wrapper, .outcome, .accordion__button-plusicon, .service-details__team, .faqs__thumb--style1, .faqs, .sidebar__search form, .sidebar__head, .story__thumb-inner, .story__wrapper, .story, .cta--style2, .cta__thumb, .cta__newsletter-inner, .cta__wrapper, .testimonial__wrapper, .blog-details, .blog__wrapper, .blog, .team__item-thumb, .team__item-inner, .pricing__item-top, .pricing__item, .pricing, .service__item-inner, .service, .feature--style1 .feature__wrapper, .feature--style1 .feature, .feature, .partner--gradient, .partner__wrapper, .social__link--style3, .text-btn, .trk-btn, .footer__linklist-item a, .footer__app-inner, .footer__wrapper, .footer, .account__divider--style1, .account__wrapper, .account, .contact__wrapper, .contact, .banner--style3 .banner, .banner--style3, .banner--style2 .banner__content, .banner--style2, .banner--style1, .page-header, .section-header, .menu-item-has-children > a, .header-bar, .header-section--style1, .header-section, .paginations ul li:not(:first-child, :last-child) a, .paginations ul li a, .form-pass {
   position: relative;
 }
 
-.about__shape--style2 .about__shape-item, .about__shape--style1 .about__shape-item, .about__thumb--style2::after, .roadmap--style2 .roadmap__upper-inner::after, .roadmap--style1 .roadmap__shape-item, .accordion__button-plusicon:before, .accordion__button-plusicon:after, .faq__shape-item--3, .faq__shape-item--2, .faq__shape-item--1, .faq__shape-item, .sidebar__search form button, .story__shape-item, .story__thumb-playbtn, .cta__shape-item, .blog__shape-item, .blog__bg-element img, .team__item-shape3, .team__item-shape2, .team__item-shape1, .team__item-content, .pricing__shape-item--6, .pricing__shape-item--5, .pricing__shape-item, .service__shape-item--2, .service__shape-item, .feature--style2 .feature__shape-item, .feature--style1 .feature__shape-item, .partner--gradient::after, .partner--gradient:before, .floating-content__bottom-right, .floating-content__bottom-left, .floating-content__left-top, .floating-content__top-right, .floating-content__top-left, .text-btn--style2::after, .text-btn::after, .trk-btn:after, .footer__shape-item, .footer__linklist-item a::after, .account__shape-item, .account__divider--style1:before, .account__divider--style1 span, .contact__shape-item, .banner--style3 .banner__bg, .banner--style2 .banner__wrapper--style2::after, .banner__shape-item, .banner__bg-element span, .banner__bg-element img, .page-header__shape-item, .menu-item-has-children > a::after, .header-bar span, .header-section--style3, .header-section--style2, .swiper-nav--style2 .swiper-nav__btn-next, .swiper-nav--style2 .swiper-nav__btn-prev, .form-pass__ctoggle, .form-pass__toggle {
+.about__shape--style2 .about__shape-item, .about__shape--style1 .about__shape-item, .about__thumb--style2::after, .outcome--style2 .outcome__upper-inner::after, .outcome--style1 .outcome__shape-item, .accordion__button-plusicon:before, .accordion__button-plusicon:after, .faqs__shape-item--3, .faqs__shape-item--2, .faqs__shape-item--1, .faqs__shape-item, .sidebar__search form button, .story__shape-item, .story__thumb-playbtn, .cta__shape-item, .blog__shape-item, .blog__bg-element img, .team__item-shape3, .team__item-shape2, .team__item-shape1, .team__item-content, .pricing__shape-item--6, .pricing__shape-item--5, .pricing__shape-item, .service__shape-item--2, .service__shape-item, .feature--style2 .feature__shape-item, .feature--style1 .feature__shape-item, .partner--gradient::after, .partner--gradient:before, .floating-content__bottom-right, .floating-content__bottom-left, .floating-content__left-top, .floating-content__top-right, .floating-content__top-left, .text-btn--style2::after, .text-btn::after, .trk-btn:after, .footer__shape-item, .footer__linklist-item a::after, .account__shape-item, .account__divider--style1:before, .account__divider--style1 span, .contact__shape-item, .banner--style3 .banner__bg, .banner--style2 .banner__wrapper--style2::after, .banner__shape-item, .banner__bg-element span, .banner__bg-element img, .page-header__shape-item, .menu-item-has-children > a::after, .header-bar span, .header-section--style3, .header-section--style2, .swiper-nav--style2 .swiper-nav__btn-next, .swiper-nav--style2 .swiper-nav__btn-prev, .form-pass__ctoggle, .form-pass__toggle {
   position: absolute;
 }
 
@@ -154,7 +155,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
 
 /*=========<<Position property extends end>>=========*/
 /*=========<<Text property extends start>>=========*/
-.about__icon-inner, .about__thumb--style2, .roadmap--style2 .roadmap__item-inner, .faq__thumb--style1, .team__item-author, .social__link, .trk-btn--outline4, .trk-btn--outline3, .trk-btn--outline22, .trk-btn--outline2, .trk-btn--outline, .trk-btn--defult, .trk-btn, .account__switch, .section-header--max65, .section-header--max57, .section-header--max50 {
+.about__icon-inner, .about__thumb--style2, .outcome--style2 .outcome__item-inner, .faqs__thumb--style1, .team__item-author, .social__link, .trk-btn--outline4, .trk-btn--outline3, .trk-btn--outline22, .trk-btn--outline2, .trk-btn--outline, .trk-btn--defult, .trk-btn, .account__switch, .section-header--max65, .section-header--max57, .section-header--max50 {
   text-align: center;
 }
 
@@ -173,7 +174,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
   font-weight: 500;
 }
 
-.about--style3 .about__content ul li, .roadmap--style1 .roadmap__item-header span, .comment__author-info h6, .sidebar__head h6, .blog__meta-tag, .blog__writer-designation p, .blog__writer-designation h6, .blog__content h5, .team--details .team__content > span, .team--details .team__content h4, .team__item-authorinfo h6, .pricing__item-top h3 span, .service__item--style2 .service__content h5, .feature--style1 .feature__item-content h6, .floating-content__item--style4 p, .trk-btn, .footer__end-copyright a, .form-label, .account__divider--style1 span, .account__check-forgot a, .contact__item-content p, .page-header .breadcrumb-item {
+.about--style3 .about__content ul li, .outcome--style1 .outcome__item-header span, .comment__author-info h6, .sidebar__head h6, .blog__meta-tag, .blog__writer-designation p, .blog__writer-designation h6, .blog__content h5, .team--details .team__content > span, .team--details .team__content h4, .team__item-authorinfo h6, .pricing__item-top h3 span, .service__item--style2 .service__content h5, .feature--style1 .feature__item-content h6, .floating-content__item--style4 p, .trk-btn, .footer__end-copyright a, .form-label, .account__divider--style1 span, .account__check-forgot a, .contact__item-content p, .page-header .breadcrumb-item {
   font-weight: 600;
 }
 
@@ -185,7 +186,7 @@ Tags: Crypto, Forex, and Stocks Trading Business
 /*=========<<Text property extends end>>=========*/
 /*=========<<Margin & padding property extends start>>=========*/
 /*-------<< margin properties >>-------*/
-.about__content--style2 .about__content-details h5, .roadmap--style2 .roadmap__item-content h5, .roadmap--style1 .roadmap__item-content p, .sidebar__recentpost-content p, .sidebar__head h4, .sidebar__head h6, .sidebar__head h3, .testimonial__author-designation h6, .pricing__list, .feature--style1 .feature__item-content h6, .floating-content__item p, .social, .footer__app-content span, .account__switch p, .contact__item-content p, .banner--style3 .banner__counter-item p, .banner--style3 .banner__btn-group, .section-header h2, .menu, ul,
+.about__content--style2 .about__content-details h5, .outcome--style2 .outcome__item-content h5, .outcome--style1 .outcome__item-content p, .sidebar__recentpost-content p, .sidebar__head h4, .sidebar__head h6, .sidebar__head h3, .testimonial__author-designation h6, .pricing__list, .feature--style1 .feature__item-content h6, .floating-content__item p, .social, .footer__app-content span, .account__switch p, .contact__item-content p, .banner--style3 .banner__counter-item p, .banner--style3 .banner__btn-group, .section-header h2, .menu, ul,
 ol {
   margin-block-end: 0;
 }
@@ -354,15 +355,15 @@ ol {
   padding: 20px;
 }
 
-.accordion--style1 .accordion__button, .service-details__faq {
+.accordion--style1 .accordion__button, .service-details__faqs {
   padding-block: 20px;
 }
 
-.service-details__faq, .team__item-author--style2 .team__item-authorsocial, .floating-content__item, .cta-form .form-control--style2, .cta-form .form-control--style1 {
+.service-details__faqs, .team__item-author--style2 .team__item-authorsocial, .floating-content__item, .cta-form .form-control--style2, .cta-form .form-control--style1 {
   padding-inline: 20px;
 }
 
-.roadmap--style2 .roadmap__item-inner, .accordion--style2 .accordion__button, .nav--feature .nav-link, .sidebar__tags, .sidebar__social, .sidebar__categorie, .sidebar__recentpost, .sidebar__search, .testimonial__item--style2 .testimonial__item-inner, .service__thumb-inner, .banner--style3 .banner__counter-item {
+.outcome--style2 .outcome__item-inner, .accordion--style2 .accordion__button, .nav--feature .nav-link, .sidebar__tags, .sidebar__social, .sidebar__categorie, .sidebar__recentpost, .sidebar__search, .testimonial__item--style2 .testimonial__item-inner, .service__thumb-inner, .banner--style3 .banner__counter-item {
   padding: 25px;
 }
 
@@ -424,12 +425,12 @@ ol {
 
 /*=========<<Margin property extends end>>=========*/
 /*=========<<overflow property extends start>>=========*/
-.about, .roadmap--style1 .roadmap__wrapper, .roadmap, .accordion__item, .service-details, .sidebar__categorie-body ul li span,
+.about, .outcome--style1 .outcome__wrapper, .outcome, .accordion__item, .service-details, .sidebar__categorie-body ul li span,
 .sidebar__categorie-body ul li a, .sidebar__recentpost-thumb, .sidebar, .story, .cta, .testimonial, .blog-details__thumb, .blog-details, .blog__thumb, .blog__item-inner, .blog, .team--details .team__thumb, .team__item-thumb, .team__item-inner, .pricing, .service, .feature--style1 .feature, .feature, .lightdark-switch span, .preloader, .trk-btn, .footer, .account, .contact, .banner--style3, .banner--style2, .banner--style1, .page-header, .blog__content h5, .feature--style2 .feature__item-content h5, .sidebar__recentpost-content p a, .blog__content p {
   overflow: hidden;
 }
 
-.about, .roadmap--style1 .roadmap__wrapper, .roadmap, .accordion__item, .service-details, .sidebar__categorie-body ul li span,
+.about, .outcome--style1 .outcome__wrapper, .outcome, .accordion__item, .service-details, .sidebar__categorie-body ul li span,
 .sidebar__categorie-body ul li a, .sidebar__recentpost-thumb, .sidebar, .story, .cta, .testimonial, .blog-details__thumb, .blog-details, .blog__thumb, .blog__item-inner, .blog, .team--details .team__thumb, .team__item-thumb, .team__item-inner, .pricing, .service, .feature--style1 .feature, .feature, .lightdark-switch span, .preloader, .trk-btn, .footer, .account, .contact, .banner--style3, .banner--style2, .banner--style1, .page-header, .blog__content h5, .feature--style2 .feature__item-content h5, .sidebar__recentpost-content p a, .blog__content p {
   overflow: hidden;
 }
@@ -528,8 +529,8 @@ ol {
   --floating-content-bg-color-2: rgba(255, 255, 255, 0.50);
   --service-item-border-color: #fff;
   --service-item-bg-color: #fff;
-  --faq-item-btn-border-color: #03314b12;
-  --faq-bg-color: #fff;
+  --faqs-item-btn-border-color: #03314b12;
+  --faqs-bg-color: #fff;
   --extra-bg-color: #fff;
   --tag-bg-color: #EDFFFA;
   --bg-shape-color: #B8CFEB;
@@ -537,7 +538,7 @@ ol {
   --bg-shape-color-2: #D5E5F9;
   --bg-shape-color-trans-2: rgba(255, 255, 255, 0.22);
   --footer-bg-color: #020e28;
-  --faq-img-bg-shadow: #0a4fd5;
+  --faqs-img-bg-shadow: #0a4fd5;
   --pagination-bg-color: #E0FAF2;
   --section-bg-color: #f8f8f8;
   --sec-bg-color-2: #fff;
@@ -610,8 +611,8 @@ ol {
   --floating-content-bg-color-2: rgba(255, 255, 255, 0.08);
   --service-item-border-color: #091E19;
   --service-item-bg-color: rgba(33, 52, 47, 1);
-  --faq-item-btn-border-color: #FFFFFF14;
-  --faq-bg-color: #21342F;
+  --faqs-item-btn-border-color: #FFFFFF14;
+  --faqs-bg-color: #21342F;
   --extra-bg-color: #21342F;
   --tag-bg-color: #002A1E;
   --bg-shape-color: rgba(213, 229, 249, 0.08);
@@ -619,7 +620,7 @@ ol {
   --bg-shape-color-2: rgba(213, 229, 249, 0.16);
   --bg-shape-color-trans-2: rgba(255, 255, 255, 0.04);
   --footer-bg-color: #00150F;
-  --faq-img-bg-shadow: #16d4668f;
+  --faqs-img-bg-shadow: #16d4668f;
   --pagination-bg-color: #00150F;
   --section-bg-color: rgba(237, 242, 248, 0.02);
   --sec-bg-color-2: #081c17;
@@ -8554,7 +8555,7 @@ textarea:focus-within {
   color: var(--brand-color);
 }
 
-.faq__thumb--style1::after {
+.faqs__thumb--style1::after {
   position: absolute;
   content: "";
   top: 50%;
@@ -8563,11 +8564,11 @@ textarea:focus-within {
   width: 200px;
   backdrop-filter: blur(10px);
   filter: blur(100px);
-  background-color: var(--faq-img-bg-shadow);
+  background-color: var(--faqs-img-bg-shadow);
   transform: translate(-50%, -50%);
   z-index: -1;
 }
-.faq__shape-item--1 {
+.faqs__shape-item--1 {
   width: 40px;
   top: 1%;
   left: 6%;
@@ -8578,38 +8579,38 @@ textarea:focus-within {
   animation: floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
 @media (min-width: 576px) {
-  .faq__shape-item--1 {
+  .faqs__shape-item--1 {
     top: 3%;
     left: 7%;
   }
 }
 @media (min-width: 768px) {
-  .faq__shape-item--1 {
+  .faqs__shape-item--1 {
     width: 70px;
     top: 6%;
     left: 2%;
   }
 }
 @media (min-width: 992px) {
-  .faq__shape-item--1 {
+  .faqs__shape-item--1 {
     width: auto;
     left: 5%;
     top: 5%;
   }
 }
 @media (min-width: 1200px) {
-  .faq__shape-item--1 {
+  .faqs__shape-item--1 {
     top: 6%;
     left: 6%;
   }
 }
 @media (min-width: 1400px) {
-  .faq__shape-item--1 {
+  .faqs__shape-item--1 {
     top: 11%;
     left: 17%;
   }
 }
-.faq__shape-item--2 {
+.faqs__shape-item--2 {
   width: 40px;
   top: 1%;
   left: 6%;
@@ -8620,38 +8621,38 @@ textarea:focus-within {
   animation: rotate 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
 @media (min-width: 576px) {
-  .faq__shape-item--2 {
+  .faqs__shape-item--2 {
     top: 3%;
     left: 7%;
   }
 }
 @media (min-width: 768px) {
-  .faq__shape-item--2 {
+  .faqs__shape-item--2 {
     width: 70px;
     top: 6%;
     left: 2%;
   }
 }
 @media (min-width: 992px) {
-  .faq__shape-item--2 {
+  .faqs__shape-item--2 {
     width: auto;
     left: 5%;
     top: 5%;
   }
 }
 @media (min-width: 1200px) {
-  .faq__shape-item--2 {
+  .faqs__shape-item--2 {
     top: 6%;
     left: 6%;
   }
 }
 @media (min-width: 1400px) {
-  .faq__shape-item--2 {
+  .faqs__shape-item--2 {
     top: 11%;
     left: 17%;
   }
 }
-.faq__shape-item--3 {
+.faqs__shape-item--3 {
   width: 40px;
   top: 1%;
   right: 10%;
@@ -8662,39 +8663,39 @@ textarea:focus-within {
   animation: left-right 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
 @media (min-width: 576px) {
-  .faq__shape-item--3 {
+  .faqs__shape-item--3 {
     top: 3%;
     right: 7%;
   }
 }
 @media (min-width: 768px) {
-  .faq__shape-item--3 {
+  .faqs__shape-item--3 {
     width: 70px;
     top: 6%;
     right: 4%;
   }
 }
 @media (min-width: 992px) {
-  .faq__shape-item--3 {
+  .faqs__shape-item--3 {
     width: auto;
     right: 5%;
     top: 5%;
   }
 }
 @media (min-width: 1200px) {
-  .faq__shape-item--3 {
+  .faqs__shape-item--3 {
     top: 6%;
     right: 6%;
   }
 }
 @media (min-width: 1400px) {
-  .faq__shape-item--3 {
+  .faqs__shape-item--3 {
     top: 11%;
     right: 11%;
   }
 }
 @media (min-width: 1600px) {
-  .faq__shape-item--3 {
+  .faqs__shape-item--3 {
     top: 11%;
     right: 17%;
   }
@@ -8737,16 +8738,16 @@ textarea:focus-within {
 .service-details__thumb-inner img {
   border-radius: 8px;
 }
-.service-details__faq {
+.service-details__faqs {
   border-radius: 16px;
   background-color: var(--tertiary-color3);
 }
 @media (min-width: 768px) {
-  .service-details__faq {
+  .service-details__faqs {
     padding-inline: 40px;
   }
 }
-.service-details__faq button {
+.service-details__faqs button {
   background-color: var(--tertiary-color);
 }
 .nav--feature .nav-link {
@@ -8858,7 +8859,7 @@ textarea:focus-within {
   color: var(--title-color1);
 }
 .accordion__button.collapsed .accordion__button-plusicon {
-  border: 1.5px solid var(--faq-item-btn-border-color);
+  border: 1.5px solid var(--faqs-item-btn-border-color);
 }
 .accordion__button.collapsed .accordion__button-plusicon::before {
   background-color: var(--title-color);
@@ -8887,7 +8888,7 @@ textarea:focus-within {
 }
 .accordion--style2 .accordion__item {
   border-radius: 16px;
-  background-color: var(--faq-bg-color);
+  background-color: var(--faqs-bg-color);
   box-shadow: 0px 16px 48px 0px rgba(6, 35, 63, 0.03), 0px -16px 48px 0px rgba(6, 35, 63, 0.03);
 }
 @media (min-width: 576px) {
@@ -8927,11 +8928,11 @@ textarea:focus-within {
   background-color: var(--bg-color-5);
 }
 
-.roadmap--style1 .roadmap__wrapper {
+.outcome--style1 .outcome__wrapper {
   z-index: 2;
 }
 @media (min-width: 768px) {
-  .roadmap--style1 .roadmap__wrapper:after {
+  .outcome--style1 .outcome__wrapper:after {
     position: absolute;
     content: "";
     height: 50%;
@@ -8948,7 +8949,7 @@ textarea:focus-within {
   }
 }
 @media (min-width: 768px) {
-  .roadmap--style1 .roadmap__wrapper:before {
+  .outcome--style1 .outcome__wrapper:before {
     position: absolute;
     content: "";
     height: 100%;
@@ -8964,51 +8965,51 @@ textarea:focus-within {
     transform: translateX(-50%);
   }
 }
-.roadmap--style1 .roadmap__item {
+.outcome--style1 .outcome__item {
   border-radius: 16px;
   background: linear-gradient(91deg, var(--bg-grad-color-3) 0%, var(--bg-grad-color-trans-3) 100%);
   max-inline-size: 500px;
 }
-.roadmap--style1 .roadmap__item--style2 {
+.outcome--style1 .outcome__item--style2 {
   background: linear-gradient(91deg, var(--bg-grad-color-trans-3) 0%, var(--bg-grad-color-3) 100%);
 }
-.roadmap--style1 .roadmap__item.aos-animate {
+.outcome--style1 .outcome__item.aos-animate {
   -webkit-transform: unset;
   -moz-transform: unset;
   -ms-transform: unset;
   -o-transform: unset;
   transform: unset;
 }
-.roadmap--style1 .roadmap__item-header h3 {
+.outcome--style1 .outcome__item-header h3 {
   flex: 1;
 }
-.roadmap--style1 .roadmap__item-header span {
+.outcome--style1 .outcome__item-header span {
   font-size: calc(1.325rem + 0.7714285714vw);
   font-family: "Anek Telugu", sans-serif;
   color: var(--brand-color);
   margin-block-start: -5px;
 }
 @media (min-width: 1400px) {
-  .roadmap--style1 .roadmap__item-header span {
+  .outcome--style1 .outcome__item-header span {
     font-size: 2rem;
   }
 }
 @media (min-width: 768px) {
-  .roadmap--style1 .roadmap__item.text-end .roadmap__item-inner:after {
+  .outcome--style1 .outcome__item.text-end .outcome__item-inner:after {
     top: 30px;
     right: -68px;
     left: auto;
   }
 }
-.roadmap--style1 .roadmap__item-content {
+.outcome--style1 .outcome__item-content {
   padding: 20px;
 }
 @media (min-width: 768px) {
-  .roadmap--style1 .roadmap__item-content {
+  .outcome--style1 .outcome__item-content {
     padding: 40px;
   }
 }
-.roadmap--style1 .roadmap__shape-item--1 {
+.outcome--style1 .outcome__shape-item--1 {
   content: "";
   height: 50%;
   width: 910px;
@@ -9023,7 +9024,7 @@ textarea:focus-within {
   display: none;
 }
 @media (min-width: 768px) {
-  .roadmap--style1 .roadmap__shape-item--1 {
+  .outcome--style1 .outcome__shape-item--1 {
     display: block;
     width: 920px;
     top: -16%;
@@ -9031,22 +9032,22 @@ textarea:focus-within {
   }
 }
 @media (min-width: 992px) {
-  .roadmap--style1 .roadmap__shape-item--1 {
+  .outcome--style1 .outcome__shape-item--1 {
     top: -16%;
     left: -80%;
   }
 }
 @media (min-width: 1200px) {
-  .roadmap--style1 .roadmap__shape-item--1 {
+  .outcome--style1 .outcome__shape-item--1 {
     left: -58%;
   }
 }
 @media (min-width: 1400px) {
-  .roadmap--style1 .roadmap__shape-item--1 {
+  .outcome--style1 .outcome__shape-item--1 {
     left: -30%;
   }
 }
-.roadmap--style1 .roadmap__shape-item--1 span {
+.outcome--style1 .outcome__shape-item--1 span {
   position: absolute;
   content: "";
   height: 96%;
@@ -9055,12 +9056,12 @@ textarea:focus-within {
   border-radius: 100px 213px 100px 100px;
 }
 @media (min-width: 768px) {
-  .roadmap--style1 .roadmap__shape-item--1 span {
+  .outcome--style1 .outcome__shape-item--1 span {
     top: 2%;
     left: 2%;
   }
 }
-.roadmap--style1 .roadmap__shape-item--2 {
+.outcome--style1 .outcome__shape-item--2 {
   width: 40px;
   top: 1%;
   left: 6%;
@@ -9071,40 +9072,40 @@ textarea:focus-within {
   animation: floating 3s cubic-bezier(0.41, 0.15, 0.64, 0.86) infinite alternate;
 }
 @media (min-width: 576px) {
-  .roadmap--style1 .roadmap__shape-item--2 {
+  .outcome--style1 .outcome__shape-item--2 {
     top: 3%;
     left: 7%;
   }
 }
 @media (min-width: 768px) {
-  .roadmap--style1 .roadmap__shape-item--2 {
+  .outcome--style1 .outcome__shape-item--2 {
     width: auto;
     top: 2%;
     left: 1%;
   }
 }
 @media (min-width: 992px) {
-  .roadmap--style1 .roadmap__shape-item--2 {
+  .outcome--style1 .outcome__shape-item--2 {
     left: 4%;
     top: 4%;
   }
 }
 @media (min-width: 1200px) {
-  .roadmap--style1 .roadmap__shape-item--2 {
+  .outcome--style1 .outcome__shape-item--2 {
     top: 5%;
     left: 5%;
   }
 }
 @media (min-width: 1400px) {
-  .roadmap--style1 .roadmap__shape-item--2 {
+  .outcome--style1 .outcome__shape-item--2 {
     top: 8%;
     left: 5%;
   }
 }
-.roadmap--style2 .roadmap__upper-inner {
+.outcome--style2 .outcome__upper-inner {
   gap: 30px;
 }
-.roadmap--style2 .roadmap__upper-inner::after {
+.outcome--style2 .outcome__upper-inner::after {
   content: "";
   width: 100%;
   left: 0;
@@ -9112,28 +9113,28 @@ textarea:focus-within {
   border: 1px dashed var(--border-color-7);
 }
 @media (min-width: 768px) {
-  .roadmap--style2 .roadmap__upper-inner::after {
+  .outcome--style2 .outcome__upper-inner::after {
     display: block;
   }
 }
-.roadmap--style2 .roadmap__slider {
-  counter-reset: roadmap__item;
+.outcome--style2 .outcome__slider {
+  counter-reset: outcome__item;
 }
-.roadmap--style2 .roadmap__item-inner {
+.outcome--style2 .outcome__item-inner {
   border-radius: 16px;
-  background-color: var(--faq-bg-color);
+  background-color: var(--faqs-bg-color);
 }
 @media (min-width: 576px) {
-  .roadmap--style2 .roadmap__item-inner {
+  .outcome--style2 .outcome__item-inner {
     padding: 30px;
   }
 }
 @media (min-width: 768px) {
-  .roadmap--style2 .roadmap__item-inner {
+  .outcome--style2 .outcome__item-inner {
     padding: 24px;
     max-width: 280px;
   }
-  .roadmap--style2 .roadmap__item-inner::before {
+  .outcome--style2 .outcome__item-inner::before {
     position: absolute;
     font-weight: 600;
     -webkit-transition: all 0.3s ease-out;
@@ -9141,8 +9142,8 @@ textarea:focus-within {
     -ms-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    counter-increment: roadmap__item;
-    content: counter(roadmap__item);
+    counter-increment: outcome__item;
+    content: counter(outcome__item);
     transform: translateX(-50%);
     left: 50%;
     width: 30px;
@@ -9156,7 +9157,7 @@ textarea:focus-within {
     font-size: 1.25rem;
     color: var(--secondary-color);
   }
-  .roadmap--style2 .roadmap__item-inner::after {
+  .outcome--style2 .outcome__item-inner::after {
     position: absolute;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -9171,42 +9172,42 @@ textarea:focus-within {
     height: 50px;
     bottom: -50px;
   }
-  .roadmap--style2 .roadmap__item-inner--vertical-line-top {
+  .outcome--style2 .outcome__item-inner--vertical-line-top {
     margin-block-start: 310px;
   }
-  .roadmap--style2 .roadmap__item-inner--vertical-line-bottom {
+  .outcome--style2 .outcome__item-inner--vertical-line-bottom {
     margin-block-end: 64px;
   }
 }
-.roadmap--style2 .roadmap__item-content h5 {
+.outcome--style2 .outcome__item-content h5 {
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.roadmap--style2 .roadmap__item-date {
+.outcome--style2 .outcome__item-date {
   font-size: 0.875rem;
   padding: 4px 12px;
   border: 1px solid var(--border-color);
   border-radius: 99px;
   color: var(--title-color);
 }
-.roadmap--style2 .roadmap__item--reverse .roadmap__item-inner::after {
+.outcome--style2 .outcome__item--reverse .outcome__item-inner::after {
   top: -50px;
 }
-.roadmap--style2 .roadmap__item--reverse .roadmap__item-inner::before {
+.outcome--style2 .outcome__item--reverse .outcome__item-inner::before {
   top: -80px;
 }
-.roadmap--style2 .roadmap__item.active .roadmap__item-inner::after, .roadmap--style2 .roadmap__item:hover .roadmap__item-inner::after {
+.outcome--style2 .outcome__item.active .outcome__item-inner::after, .outcome--style2 .outcome__item:hover .outcome__item-inner::after {
   border: 1px dashed var(--secondary-color);
 }
-.roadmap--style2 .roadmap__item.active .roadmap__item-inner::before, .roadmap--style2 .roadmap__item:hover .roadmap__item-inner::before {
+.outcome--style2 .outcome__item.active .outcome__item-inner::before, .outcome--style2 .outcome__item:hover .outcome__item-inner::before {
   color: var(--wh-color);
   background-color: var(--secondary-color);
   border-color: var(--secondary-color);
 }
-.roadmap--style2 .roadmap__item.active .roadmap__item-content h5, .roadmap--style2 .roadmap__item:hover .roadmap__item-content h5 {
+.outcome--style2 .outcome__item.active .outcome__item-content h5, .outcome--style2 .outcome__item:hover .outcome__item-content h5 {
   color: var(--secondary-color);
 }
 
@@ -9262,7 +9263,7 @@ textarea:focus-within {
   width: 250px;
   backdrop-filter: blur(10px);
   filter: blur(100px);
-  background-color: var(--faq-img-bg-shadow);
+  background-color: var(--faqs-img-bg-shadow);
   transform: translate(-50%, -50%);
   z-index: -1;
   opacity: 0.5;
@@ -9619,5 +9620,13 @@ html[data-bs-theme=dark] .social__link--style1.active svg, html[data-bs-theme=da
 html[data-bs-theme=dark] .partner--gradient::after {
   background: #003E2C;
 }
+
+.btn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /*# sourceMappingURL=style.css.map */
