@@ -1,14 +1,3 @@
-/*!
-Template Name: Bitrader - Professional Multipurpose HTML Template for Your Crypto, Forex, and Stocks Trading Business
-Template URI: 
-Author: thetork
-Author URI: https: //themeforest.net/user/thetork/portfolio
-Description: Experience the power of Bitrader, the ultimate HTML template designed to transform your trading business. With its sleek design and advanced features, Bitrader empowers you to showcase your expertise, engage clients, and dominate the markets. Elevate your online presence and unlock new trading possibilities with Bitrader.
-Version: 1.0.0
-Text Domain: Bitrader
-Tags: Crypto, Forex, and Stocks Trading Business
-
-*/
 /*
 -----------------Table of content start -----------------
 
@@ -256,7 +245,7 @@ ol {
 
 /*-------<< margin properties >>-------*/
 .about--style3 .about__content a, .about__content-inner a, .testimonial__footer, .account__switch {
-  margin-block-start: 30px;
+  margin-block-start: -16px;
 }
 
 .about--style3 .about__content-icon, .about__content:not(:last-child), .error__thumb img, .sidebar__recentpost-body ul li, .cta__subscribe p, .footer__about-moto, .contact__item:not(:last-child), .banner__content-coin--style2 {
@@ -408,7 +397,10 @@ ol {
 }
 
 .testimonial__item--style1 .testimonial__item-inner {
-  padding: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .testimonial__slider, .testimonial__slider2 {
@@ -7921,13 +7913,22 @@ textarea:focus-within {
 .testimonial__author {
   gap: 15px;
 }
-.testimonial__author-thumb img {
-  border-radius: 99px;
-  max-width: 60px;
+
+.testimonial__author-thumb {
+  text-align: center;
 }
+.testimonial__author-thumb img {
+  border-radius: 200px;
+  max-width: 100px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
 .testimonial__author-designation span {
   font-size: 0.875rem;
   color: var(--text-color);
+  margin-top: 10px;
 }
 .testimonial__quote span i,
 .testimonial__quote span svg {
