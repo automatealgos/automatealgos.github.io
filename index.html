@@ -39,6 +39,71 @@
 
   <!-- main css for template -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+  
+  .testimonial__item-content {
+    background-color: white;
+    padding: 30px;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .testimonial__item-content:hover {
+    transform: scale(1.05);
+  }
+  
+  .testimonial__rating {
+    margin-top: 5px;
+    color: gold;
+  }
+  
+  .testimonial__quote {
+    margin-top: 15px;
+    color: #888;
+    font-size: 24px;
+  }
+  
+  .testimonial__paragraph {
+    margin-top: 20px;
+    font-size: 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .testimonial__item-content.expanded .testimonial__paragraph {
+    max-height: 1000px; /* Adjust this value based on your content length */
+  }
+  
+  .testimonial__read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .testimonial__read-more:hover {
+    color: #0056b3;
+  }
+  
+  .testimonial__highlight {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .testimonial__highlight-quote {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  </style>
 </head>
 
 <body>
@@ -203,35 +268,60 @@
             <div class="swiper-slide">
               <div class="partner__item">
                 <div class="partner__item-inner">
-                  <img src="assets/images/partner/light/1.png" alt="partner logo" class="dark">
+                  <br>
+                  <br>
+                  <img src="assets/images/partner/light/amazon.png" alt="partner logo" class="dark">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="partner__item">
                 <div class="partner__item-inner">
-                  <img src="assets/images/partner/light/2.png" alt="partner logo" class="dark">
+                  <br>
+                  <img src="assets/images/partner/light/taracapitalpartners.png" alt="partner logo" class="dark">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="partner__item">
                 <div class="partner__item-inner">
-                  <img src="assets/images/partner/light/3.png" alt="partner logo" class="dark">
+                  <br>
+                  <br>
+                  <img src="assets/images/partner/light/scaler.png" alt="partner logo" class="dark">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="partner__item">
                 <div class="partner__item-inner">
-                  <img src="assets/images/partner/light/4.png" alt="partner logo" class="dark">
+                  <br>
+                  <br>
+                  <img src="assets/images/partner/light/learnapp.png" alt="partner logo" class="dark">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
               <div class="partner__item">
                 <div class="partner__item-inner">
-                  <img src="assets/images/partner/light/5.png" alt="partner logo" class="dark">
+                  <img src="assets/images/partner/light/codinginvaders.png" alt="partner logo" class="dark">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="partner__item">
+                <div class="partner__item-inner">
+                  <br>
+                  <br>
+                  <img src="assets/images/partner/light/codingninjas.png" alt="partner logo" class="dark">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="partner__item">
+                <div class="partner__item-inner">
+                  <br>
+                  <br>
+                  <img src="assets/images/partner/light/coinswitchkuber.png" alt="partner logo" class="dark">
                 </div>
               </div>
             </div>
@@ -818,6 +908,37 @@
                   <div class="blog__thumb">
                     <img src="assets/images/blog/1.png" alt="blog Images">
                   </div>
+                  <div class="blog__content">
+                    <div class="blog__meta">
+                      <span class="blog__meta-tag blog__meta-tag--style1">Algo Triumph</span>
+                    </div>
+                    <h5 class="10"> <a href="https://www.linkedin.com/posts/archit-mittal-analyst_algotrading-automation-trading-activity-7095743279182315520-LBcV?utm_source=share&utm_medium=member_desktop">Traders Success Sceret</a> </h5>
+
+                    <p class="mb-15">🤔 Are you a successful trader or want to be one? 📈 🚀
+
+                      🗞 Read this post till the end to know the 7 Common Habits of most Successful Algo-Traders.</p>
+                      <p class="mb-15"> 
+                        <a href="https://www.linkedin.com/posts/archit-mittal-analyst_algotrading-automation-trading-activity-7095743279182315520-LBcV?utm_source=share&utm_medium=member_desktop">Read more..</a>
+                      </p> 
+                    <div class="blog__writer">
+                      <div class="blog__writer-thumb">
+                        <img src="assets/images/blog/author/architmittallogo.png" alt="writer">
+                      </div>
+                      <div class="blog__writer-designation">
+                        <h6 class="mb-0">Archit Mittal</h6>
+                        <span>15/8/2023</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="blog__item blog__item--style2">
+                <div class="blog__item-inner">
+                  <div class="blog__thumb">
+                    <img src="assets/images/blog/1.png" alt="blog Images">
+                  </div>
 
                   <div class="blog__content">
                     <div class="blog__meta">
@@ -836,7 +957,7 @@
 
                     <div class="blog__writer">
                       <div class="blog__writer-thumb">
-                        <img src="assets/images/blog/author/1.png" alt="writer">
+                        <img src="assets/images/blog/author/architmittallogo.png" alt="writer">
                       </div>
                       <div class="blog__writer-designation">
                         <h6 class="mb-0">Archit Mittal</h6>
@@ -851,25 +972,25 @@
               <div class="blog__item blog__item--style2">
                 <div class="blog__item-inner">
                   <div class="blog__thumb">
-                    <img src="assets/images/blog/2.png" alt="blog Images">
+                    <img src="assets/images/blog/1.png" alt="blog Images">
                   </div>
-
                   <div class="blog__content">
                     <div class="blog__meta">
-                      <span class="blog__meta-tag blog__meta-tag--style1">Trading market</span>
+                      <span class="blog__meta-tag blog__meta-tag--style1">Algo Insights</span>
                     </div>
-                    <h5 class="10"> <a href="blog-details.html">hedge funds work?</a> </h5>
+                    <h5 class="10"> <a href="https://www.linkedin.com/posts/archit-mittal-analyst_riskmanagement-algotrading-tradingstrategies-activity-7092466557661958144-o6eM?utm_source=share&utm_medium=member_desktop">Mastering Risk Management</a> </h5>
 
-                    <p class="mb-15">To cater to your individual trading preferences, we offer a variety of order types,
-                      including market.</p>
-
+                    <p class="mb-15">😱🔻 Missing out on these Risk Management strategies could cost you big losses!😨 🔴</p>
+                      <p class="mb-15"> 
+                        <a href="https://www.linkedin.com/posts/archit-mittal-analyst_riskmanagement-algotrading-tradingstrategies-activity-7092466557661958144-o6eM?utm_source=share&utm_medium=member_desktop">Read more..</a>
+                      </p> 
                     <div class="blog__writer">
                       <div class="blog__writer-thumb">
-                        <img src="assets/images/blog/author/2.png" alt="writer">
+                        <img src="assets/images/blog/author/architmittallogo.png" alt="writer">
                       </div>
                       <div class="blog__writer-designation">
-                        <h6 class="mb-0">Abhivibha Kanmani</h6>
-                        <span>30/5/2023</span>
+                        <h6 class="mb-0">Archit Mittal</h6>
+                        <span>8/8/2023</span>
                       </div>
                     </div>
                   </div>
@@ -880,25 +1001,27 @@
               <div class="blog__item blog__item--style2">
                 <div class="blog__item-inner">
                   <div class="blog__thumb">
-                    <img src="assets/images/blog/3.png" alt="blog Images">
+                    <img src="assets/images/blog/1.png" alt="blog Images">
                   </div>
-
                   <div class="blog__content">
                     <div class="blog__meta">
-                      <span class="blog__meta-tag blog__meta-tag--style1">Investment</span>
+                      <span class="blog__meta-tag blog__meta-tag--style1">Algo Trading</span>
                     </div>
-                    <h5 class="10"> <a href="blog-details.html">Options Trading business?</a> </h5>
+                    <h5 class="10"> <a href="https://www.linkedin.com/posts/archit-mittal-analyst_algorithmictrading-algotrading-financialmarkets-activity-7089929775506493440-1srp?utm_source=share&utm_medium=member_desktop">Mastering Algo-Trading</a> </h5>
 
-                    <p class="mb-15">Security is our top priority, and we employ robust measures to ensure the safety of
-                      your funds.</p>
+                    <p class="mb-15">🚀 Unleash the Power of Algo-Trading! 📈💡
 
+                      🚀Are you ready to dive into the fascinating world of algorithmic trading? 🌐💹</p>
+                      <p class="mb-15"> 
+                        <a href="https://www.linkedin.com/posts/archit-mittal-analyst_algorithmictrading-algotrading-financialmarkets-activity-7089929775506493440-1srp?utm_source=share&utm_medium=member_desktop">Read more..</a>
+                      </p> 
                     <div class="blog__writer">
                       <div class="blog__writer-thumb">
-                        <img src="assets/images/blog/author/3.png" alt="writer">
+                        <img src="assets/images/blog/author/architmittallogo.png" alt="writer">
                       </div>
                       <div class="blog__writer-designation">
-                        <h6 class="mb-0">Hulya Aydin</h6>
-                        <span>12/07/2023</span>
+                        <h6 class="mb-0">Archit Mittal</h6>
+                        <span>1/8/2023</span>
                       </div>
                     </div>
                   </div>
@@ -909,7 +1032,7 @@
         </div>
       </div>
       <div class="text-center">
-        <a href="blogs.html" class="trk-btn trk-btn--border trk-btn--primary mt-40">View more </a>
+        <a href="https://www.linkedin.com/in/archit-mittal-analyst/" class="trk-btn trk-btn--border trk-btn--primary mt-40">View more </a>
       </div>
     </div>
     <div class="blog__shape">
@@ -919,376 +1042,505 @@
   <!-- ===============>> Blog section ends here <<================= -->
 
 
-    <!-- ===============>> Testimonial section starts here <<================= -->
-    <section class="testimonial padding-top padding-bottom-style2 bg-color" id="section-testimonials">
-      <div class="container">
-        <div class="section-header d-md-flex align-items-center justify-content-between">
-          <div class="section-header__content">
-            <h2 class="mb-15">connect with <span>our Clients </span></h2>
-            <p class="mb-0">We love connecting with our clients to hear about their experiences and how we can improve.
-            </p>
-          </div>
-          <div class="section-header__action">
-            <div class="swiper-nav">
-              <button class="swiper-nav__btn testimonial__slider-prev"><i class="fa-solid fa-angle-left"></i></button>
-              <button class="swiper-nav__btn testimonial__slider-next active"><i
-                  class="fa-solid fa-angle-right"></i></button>
-            </div>
+  <!-- ===============>> Testimonial section starts here <<================= -->
+  <section class="testimonial padding-top padding-bottom-style2 bg-color" id="section-testimonials">
+    <div class="container">
+      <div class="section-header d-md-flex align-items-center justify-content-between">
+        <div class="section-header__content">
+          <h2 class="mb-15"><span>Testimonials</span></h2>
+          <p class="mb-0">We love connecting with our clients to hear about their experiences and how we can improve.</p>
+        </div>
+        <div class="section-header__action">
+          <div class="swiper-nav">
+            <button class="swiper-nav__btn testimonial__slider-prev"><i class="fa-solid fa-angle-left"></i></button>
+            <button class="swiper-nav__btn testimonial__slider-next active"><i class="fa-solid fa-angle-right"></i></button>
           </div>
         </div>
-        <div class="testimonial__wrapper" data-aos="fade-up" data-aos-duration="1000">
-          <div class="testimonial__slider swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="testimonial__item testimonial__item--style1">
-                  <div class="testimonial__item-inner">
-                    <div class="testimonial__item-content">
-                      <p class="mb-0">
-                        Archit is a natural mentor. Teaching comes to him with ease. He does carry greater level of knowledge; 
-                        his variety of experience at a broader spectrum of trading (Brokers & Strategies) helps students to intake 
-                        a relevant and structured knowledge. I consider this as a critical quality for a teacher to ensure that the 
-                        time and money spent results in a meaningful and practically usable algo code & know-how. His patience levels 
-                        demonstrated through answering low-level questions made me to stay course and progress.. Good run thus far; 
-                        Looking to mature as a self-sustained algo trader. My sincere gratitude to his intent & efforts as a teacher. 
-                        Thanks Archit ji. 
+      </div>
+      <div class="testimonial__wrapper" data-aos="fade-up" data-aos-duration="1000">
+        <div class="testimonial__slider swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <div class="testimonial__footer">
+                      <div class="testimonial__author">
+                        <div class="testimonial__author-thumb">
+                          <img src="assets/images/logo/alogo.png" alt="author">
+                        <div class="testimonial__author-designation testimonial__quote">
+                          <h6>Krish</h6>
+                          <span>Course - Algo Trading with Python</span>
+                          <span><i class="fas fa-quote-right"></i></span>
+                        </div>
+                      </div>
+                      </div>
+                      <p class="testimonial__paragraph mb-0">
+                        Archit is a natural mentor. Teaching comes to him with ease. He does carry greater level of knowledge; his variety of experience at a broader spectrum of trading (Brokers & Strategies) helps students to intake a relevant and structured knowledge. I consider this as a critical quality for a teacher to ensure that the time and money spent results in a meaningful and practically usable algo code & know-how. His patience levels demonstrated through answering low-level questions made me to stay course and progress.. Good run thus far; Looking to mature as a self-sustained algo trader. My sincere gratitude to his intent & efforts as a teacher. Thanks Archit ji. 
                       </p>
-                      <div class="testimonial__footer">
-                        <div class="testimonial__author">
-                          <div class="testimonial__author-thumb">
-                            <img src="assets/images/testimonial/1.png" alt="author">
-                          </div>
-                          <div class="testimonial__author-designation">
-                            <h6>Krish</h6>
-                            <span>Course - Algo Trading with Python</span>
-                          </div>
-                        </div>
-                        <div class="testimonial__quote">
-                          <span><i class="fa-solid fa-quote-right"></i></span>
-                        </div>
+                      <div class="testimonial__read-more">Read More</div>
+                      <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div>
+                      <li class="social__item">
+                        <a href="https://twitter.com/Krish37960755/" class="social__link social__link--style1 active"><i class="fab fa-twitter"></i></a>
+                      </li>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="testimonial__item testimonial__item--style1">
-                  <div class="testimonial__item-inner">
-                    <div class="testimonial__item-content">
-                      <p class="mb-0">
-                        I am incredibly grateful for Archit's mentorship in Python. 
-                        His deep knowledge, patient guidance, and passion for teaching have transformed my coding journey.
-                        Archit's dedication has empowered me to tackle complex challenges with confidence.
-                      <div class="testimonial__footer">
-                        <div class="testimonial__author">
-                          <div class="testimonial__author-thumb">
-                            <img src="assets/images/testimonial/2.png" alt="author">
-                          </div>
-                          <div class="testimonial__author-designation">
-                            <h6>M Sathish Kumar</h6>
-                            <span>Course - Algo Trading with Python</span>
-                          </div>
-                        </div>
-                        <div class="testimonial__quote">
-                          <span><i class="fa-solid fa-quote-right"></i></span>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <div class="testimonial__footer">
+                      <div class="testimonial__author">
+                        <div class="testimonial__author-thumb">
+                          <img src="assets/images/logo/alogo.png" alt="author">
+                        <div class="testimonial__author-designation testimonial__quote">
+                          <h6>M Sathish Kumar</h6>
+                          <span>Course - Algo Trading with Python</span>
+                          <span><i class="fas fa-quote-right"></i></span>
                         </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="testimonial__item testimonial__item--style1">
-                  <div class="testimonial__item-inner">
-                    <div class="testimonial__item-content">
-                      <p class="mb-0">
-                        Archit sir and Yogesh sir are excellent and very patient with handling student doubts and queries 
-                        and are a great team, coming from a non coder like me, I must say im greatful for the teams effort and dilligence.
+                      </div>
+                      <p class="testimonial__paragraph mb-0">
+                        I am incredibly grateful for Archit's mentorship in Python. His deep knowledge, patient guidance, and passion for teaching have transformed my coding journey. Archit's dedication has empowered me to tackle complex challenges with confidence.
                       </p>
-                      <div class="testimonial__footer">
-                        <div class="testimonial__author">
-                          <div class="testimonial__author-thumb">
-                            <img src="assets/images/testimonial/6.png" alt="author">
-                          </div>
-                          <div class="testimonial__author-designation">
-                            <h6>Gaurav Mansinghani</h6>
-                            <span>Course - Python</span>
-                          </div>
-                        </div>
-                        <div class="testimonial__quote">
-                          <span><i class="fa-solid fa-quote-right"></i></span>
-                        </div>
+                      <div class="testimonial__read-more">Read More</div>
+                      <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div>
+                        <li class="social__item">
+                          <a href="https://linkedin.com/in/m-sathish-kumar-b5b8149a/" class="social__link social__link--style1 active"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="testimonial__item testimonial__item--style1">
-                  <div class="testimonial__item-inner">
-                    <div class="testimonial__item-content">
-                      <p class="mb-0">
-                        I really had fun in your live classes. Communication was clear. But most importantly you put in a lot of effort. 
-                        Took time to clear our doubts. And your knowledge is also impressive.
-                      <div class="testimonial__footer">
-                        <div class="testimonial__author">
-                          <div class="testimonial__author-thumb">
-                            <img src="assets/images/testimonial/2.png" alt="author">
-                          </div>
-                          <div class="testimonial__author-designation">
-                            <h6>Siddharth Nair</h6>
-                            <span>Course - Algo Trading with Python</span>
-                          </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <div class="testimonial__footer">
+                      <div class="testimonial__author">
+                        <div class="testimonial__author-thumb">
+                          <img src="assets/images/logo/alogo.png" alt="author">
+                        <div class="testimonial__author-designation testimonial__quote">
+                          <h6>Gaurav Mansinghani</h6>
+                          <span>Course - Python</span>
+                          <span><i class="fas fa-quote-right"></i></span>
                         </div>
-                        <div class="testimonial__quote">
-                          <span><i class="fa-solid fa-quote-right"></i></span>
-                        </div>
+                      </div>
+                      </div>
+                      <p class="testimonial__paragraph mb-0">
+                        Archit sir and Yogesh sir are excellent and very patient with handling student doubts and queries and are a great team, coming from a non coder like me , I must say im greatful for the teams effort and dilligence.
+                      </p>
+                      <div class="testimonial__read-more">Read More</div>
+                      <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div>
+                        <li class="social__item">
+                          <a href="https://instagram.com/gaurav.mansinghani/" class="social__link social__link--style1 active"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="testimonial__item testimonial__item--style1">
-                  <div class="testimonial__item-inner">
-                    <div class="testimonial__item-content">
-                      <p class="mb-0">
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <div class="testimonial__footer">
+                      <div class="testimonial__author">
+                        <div class="testimonial__author-thumb">
+                          <img src="assets/images/logo/alogo.png" alt="author">
+                        <div class="testimonial__author-designation testimonial__quote">
+                          <h6>Siddharth Nair</h6>
+                          <span>Course - Algo Trading with Python</span>
+                          <span><i class="fas fa-quote-right"></i></span>
+                        </div>
+                      </div>
+                      </div>
+                      <p class="testimonial__paragraph mb-0">
+                        I really had fun in your live classes. Communication was clear. But most importantly you put in a lot of effort. Took time to clear our doubts. And your knowledge is also impressive.
+                      </p>
+                      <div class="testimonial__read-more">Read More</div>
+                      <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div>
+                        <li class="social__item">
+                          <a href="https://www.linkedin.com/in/siddharthnair2194/" class="social__link social__link--style1 active"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <div class="testimonial__footer">
+                      <div class="testimonial__author">
+                        <div class="testimonial__author-thumb">
+                          <img src="assets/images/logo/alogo.png" alt="author">
+                        <div class="testimonial__author-designation testimonial__quote">
+                          <h6>Aditya Borde</h6>
+                          <span>Course - Algo Trading with Python</span>
+                          <span><i class="fas fa-quote-right"></i></span>
+                        </div>
+                      </div>
+                      </div>
+                      <p class="testimonial__paragraph mb-0">
                         Good and knowledgeable approach.
-                      <div class="testimonial__footer">
-                        <div class="testimonial__author">
-                          <div class="testimonial__author-thumb">
-                            <img src="assets/images/testimonial/2.png" alt="author">
-                          </div>
-                          <div class="testimonial__author-designation">
-                            <h6>Aditya Borde</h6>
-                            <span>Course - Algo Trading with Python</span>
-                          </div>
-                        </div>
-                        <div class="testimonial__quote">
-                          <span><i class="fa-solid fa-quote-right"></i></span>
-                        </div>
+                      </p>
+                      <div class="testimonial__read-more">Read More</div>
+                      <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div>
+                        <li class="social__item">
+                          <a href="https://www.linkedin.com/in/aditya-borde-0645a3102/" class="social__link social__link--style1 active"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="testimonial__item testimonial__item--style1">
-                  <div class="testimonial__item-inner">
-                    <div class="testimonial__item-content">
-                      <p class="mb-0">
-                        It certainly was pleasure learning from Your Good Self. 
-                        Looking forward to the remaining live classes.
-                      <div class="testimonial__footer">
-                        <div class="testimonial__author">
-                          <div class="testimonial__author-thumb">
-                            <img src="assets/images/testimonial/2.png" alt="author">
-                          </div>
-                          <div class="testimonial__author-designation">
-                            <h6>S N Vatyani</h6>
-                            <span>Course - Algo Trading with Python</span>
-                          </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <div class="testimonial__footer">
+                      <div class="testimonial__author">
+                        <div class="testimonial__author-thumb">
+                          <img src="assets/images/logo/alogo.png" alt="author">
+                        <div class="testimonial__author-designation testimonial__quote">
+                          <h6>S N Vatyani</h6>
+                          <span>Course - Algo Trading with Python</span>
+                          <span><i class="fas fa-quote-right"></i></span>
                         </div>
-                        <div class="testimonial__quote">
-                          <span><i class="fa-solid fa-quote-right"></i></span>
-                        </div>
+                      </div>
+                      </div>
+                      <p class="testimonial__paragraph mb-0">
+                        It certainly was pleasure learning from Your Good Self. Looking forward to the remaining live classes. 
+                      </p>
+                      <div class="testimonial__read-more">Read More</div>
+                      <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="testimonial__item testimonial__item--style1">
-                  <div class="testimonial__item-inner">
-                    <div class="testimonial__item-content">
-                      <p class="mb-0">
-                        Made things easy to understand. Always available to solve the doubts. Best part is patience, 
-                        he never mentioned that time is over so he will explain in next class or some other time. 
-                        He listened the doubts patiently and explained in very real life example. 
-                      <div class="testimonial__footer">
-                        <div class="testimonial__author">
-                          <div class="testimonial__author-thumb">
-                            <img src="assets/images/testimonial/2.png" alt="author">
-                          </div>
-                          <div class="testimonial__author-designation">
-                            <h6>Mukesh Kumar Singh</h6>
-                            <span>Course - Algo Trading with Python</span>
-                          </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <div class="testimonial__footer">
+                      <div class="testimonial__author">
+                        <div class="testimonial__author-thumb">
+                          <img src="assets/images/logo/alogo.png" alt="author">
+                        <div class="testimonial__author-designation testimonial__quote">
+                          <h6>Mukesh Kumar Singh</h6>
+                          <span>Course - Algo Trading with Python</span>
+                          <span><i class="fas fa-quote-right"></i></span>
                         </div>
-                        <div class="testimonial__quote">
-                          <span><i class="fa-solid fa-quote-right"></i></span>
-                        </div>
+                      </div>
+                      </div>
+                      <p class="testimonial__paragraph mb-0">
+                        Made things easy to understand. Always available to solve the doubts. Best part is patience, he never mentioned that time is over so he will explain in next class or some other time. He listened the doubts patiently and explained in very real life example. 
+                      </p>
+                      <div class="testimonial__read-more">Read More</div>
+                      <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="testimonial__item testimonial__item--style1">
-                  <div class="testimonial__item-inner">
-                    <div class="testimonial__item-content">
-                      <p class="mb-0">
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <div class="testimonial__footer">
+                      <div class="testimonial__author">
+                        <div class="testimonial__author-thumb">
+                          <img src="assets/images/logo/alogo.png" alt="author">
+                        <div class="testimonial__author-designation testimonial__quote">
+                          <h6>Gomathy Anushkumar</h6>
+                          <span>Course - Data Analytics</span>
+                          <span><i class="fas fa-quote-right"></i></span>
+                        </div>
+                      </div>
+                      </div>
+                      <p class="testimonial__paragraph mb-0">
                         Enjoyed the teaching.
-                      <div class="testimonial__footer">
-                        <div class="testimonial__author">
-                          <div class="testimonial__author-thumb">
-                            <img src="assets/images/testimonial/2.png" alt="author">
-                          </div>
-                          <div class="testimonial__author-designation">
-                            <h6>Gomathy Anushkumar</h6>
-                            <span>Course - Data Analytics</span>
-                          </div>
-                        </div>
-                        <div class="testimonial__quote">
-                          <span><i class="fa-solid fa-quote-right"></i></span>
-                        </div>
+                      </p>
+                      <div class="testimonial__read-more">Read More</div>
+                      <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div>
+                        <li class="social__item">
+                          <a href="https://instagram.com/kaushika_anushkumar/" class="social__link social__link--style1 active"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="testimonial__item testimonial__item--style1">
-                  <div class="testimonial__item-inner">
-                    <div class="testimonial__item-content">
-                      <p class="mb-0">
-                        Archit Sir Data Analytics & Python course was an exceptional learning experience. The course content was comprehensive and well-structured, 
-                        and his teaching style made complex concepts easy to understand. Through this course, I gained practical skills in data analytics and Python programming, 
-                        setting a strong foundation for my journey in Data Analyst.
-                      <div class="testimonial__footer">
-                        <div class="testimonial__author">
-                          <div class="testimonial__author-thumb">
-                            <img src="assets/images/testimonial/2.png" alt="author">
-                          </div>
-                          <div class="testimonial__author-designation">
-                            <h6>Nasir Ahmad</h6>
-                            <span>Course - Data Analytics</span>
-                          </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <div class="testimonial__footer">
+                      <div class="testimonial__author">
+                        <div class="testimonial__author-thumb">
+                          <img src="assets/images/logo/alogo.png" alt="author">
+                        <div class="testimonial__author-designation testimonial__quote">
+                          <h6>Nasir Ahmad</h6>
+                          <span>Course - Data Analytics</span>
+                          <span><i class="fas fa-quote-right"></i></span>
                         </div>
-                        <div class="testimonial__quote">
-                          <span><i class="fa-solid fa-quote-right"></i></span>
-                        </div>
+                      </div>
+                      </div>
+                      <p class="testimonial__paragraph mb-0">
+                        Archit Sir Data Analytics & Python course was an exceptional learning experience. The course content was comprehensive and well-structured, and his teaching style made complex concepts easy to understand. Through this course, I gained practical skills in data analytics and Python programming, setting a strong foundation for my journey in Data Analyst.
+                      </p>
+                      <div class="testimonial__read-more">Read More</div>
+                      <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div>
+                        <li class="social__item">
+                          <a href="https://www.linkedin.com/in/nasir151/" class="social__link social__link--style1 active"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="testimonial__item testimonial__item--style1">
-                  <div class="testimonial__item-inner">
-                    <div class="testimonial__item-content">
-                      <p class="mb-0">
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <div class="testimonial__footer">
+                      <div class="testimonial__author">
+                        <div class="testimonial__author-thumb">
+                          <img src="assets/images/logo/alogo.png" alt="author">
+                        <div class="testimonial__author-designation testimonial__quote">
+                          <h6>Akash Pandey</h6>
+                          <span>Course - Data Analytics</span>
+                          <span><i class="fas fa-quote-right"></i></span>
+                        </div>
+                      </div>
+                      </div>
+                      <p class="testimonial__paragraph mb-0">
                         You are very generous and good teacher.
-                      <div class="testimonial__footer">
-                        <div class="testimonial__author">
-                          <div class="testimonial__author-thumb">
-                            <img src="assets/images/testimonial/2.png" alt="author">
-                          </div>
-                          <div class="testimonial__author-designation">
-                            <h6>Akash Pandey</h6>
-                            <span>Course - Data Analytics</span>
-                          </div>
-                        </div>
-                        <div class="testimonial__quote">
-                          <span><i class="fa-solid fa-quote-right"></i></span>
-                        </div>
+                      </p>
+                      <div class="testimonial__read-more">Read More</div>
+                      <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div>
+                        <li class="social__item">
+                          <a href="https://www.linkedin.com/in/akash-pandey-1a174427a/" class="social__link social__link--style1 active"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="testimonial__item testimonial__item--style1">
-                  <div class="testimonial__item-inner">
-                    <div class="testimonial__item-content">
-                      <p class="mb-0">
-                        Thank you so so so much sir for being our TEACHER.......You are too polite and humble...../\.......Please be in Touch....
-                      <div class="testimonial__footer">
-                        <div class="testimonial__author">
-                          <div class="testimonial__author-thumb">
-                            <img src="assets/images/testimonial/2.png" alt="author">
-                          </div>
-                          <div class="testimonial__author-designation">
-                            <h6>Anurag Dhariya</h6>
-                            <span>Course - Data Analytics</span>
-                          </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <div class="testimonial__footer">
+                      <div class="testimonial__author">
+                        <div class="testimonial__author-thumb">
+                          <img src="assets/images/logo/alogo.png" alt="author">
+                        <div class="testimonial__author-designation testimonial__quote">
+                          <h6>Anurag Dhariya</h6>
+                          <span>Course - Data Analytics</span>
+                          <span><i class="fas fa-quote-right"></i></span>
                         </div>
-                        <div class="testimonial__quote">
-                          <span><i class="fa-solid fa-quote-right"></i></span>
-                        </div>
+                      </div>
+                      </div>
+                      <p class="testimonial__paragraph mb-0">
+                        Thank you so so so much sir for being our TEACHER....... You are too polite and humble...../\....... Please be in Touch....
+                      </p>
+                      <div class="testimonial__read-more">Read More</div>
+                      <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div>
+                        <li class="social__item">
+                          <a href="https://www.linkedin.com/in/anurag-dhariya-050034109/" class="social__link social__link--style1 active"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="testimonial__item testimonial__item--style1">
-                  <div class="testimonial__item-inner">
-                    <div class="testimonial__item-content">
-                      <p class="mb-0">
-                        HI Sir! This is Sagaya Of Batch DA47 From Coding Invaders. You are one of those teachers that i will never forget.
-                        You made learning data analytics easier by going beyond the syllabus and making us do extra stuff so that we'll understand 
-                        each and every concepts .and you solve every doubts of the students without leaving anyone. Thank you so much sir! will miss you a lot! 
-                      <div class="testimonial__footer">
-                        <div class="testimonial__author">
-                          <div class="testimonial__author-thumb">
-                            <img src="assets/images/testimonial/2.png" alt="author">
-                          </div>
-                          <div class="testimonial__author-designation">
-                            <h6>Sagaya Abinesh R</h6>
-                            <span>Course - Data Analytics</span>
-                          </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <div class="testimonial__footer">
+                      <div class="testimonial__author">
+                        <div class="testimonial__author-thumb">
+                          <img src="assets/images/logo/alogo.png" alt="author">
+                        <div class="testimonial__author-designation testimonial__quote">
+                          <h6>Sagaya Abinesh R</h6>
+                          <span>Course - Data Analytics</span>
+                          <span><i class="fas fa-quote-right"></i></span>
                         </div>
-                        <div class="testimonial__quote">
-                          <span><i class="fa-solid fa-quote-right"></i></span>
-                        </div>
+                      </div>
+                      </div>
+                      <p class="testimonial__paragraph mb-0">
+                        HI Sir! This is Sagaya of Batch DA47 From Coding Invaders. You are one of those teachers that I will never forget. You made learning data analytics easier by going beyond the syllabus and making us do extra stuff so that we'll understand each and every concepts. And you solve every doubts of the students without leaving anyone. Thank you so much sir! Will miss you a lot! 
+                      </p>
+                      <div class="testimonial__read-more">Read More</div>
+                      <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div>
+                        <li class="social__item">
+                          <a href="https://www.linkedin.com/in/sagaya-abinesh-r-970b84216/" class="social__link social__link--style1 active"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="testimonial__item testimonial__item--style1">
-                  <div class="testimonial__item-inner">
-                    <div class="testimonial__item-content">
-                      <p class="mb-0">
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <div class="testimonial__footer">
+                      <div class="testimonial__author">
+                        <div class="testimonial__author-thumb">
+                          <img src="assets/images/logo/alogo.png" alt="author">
+                        <div class="testimonial__author-designation testimonial__quote">
+                          <h6>Iffath Iftekhar</h6>
+                          <span>Course - Data Analytics</span>
+                          <span><i class="fas fa-quote-right"></i></span>
+                        </div>
+                      </div>
+                      </div>
+                      <p class="testimonial__paragraph mb-0">
                         Best Mentor in coding invaders, has effective way of teaching, makes every topic an interesting concept!!
-                      <div class="testimonial__footer">
-                        <div class="testimonial__author">
-                          <div class="testimonial__author-thumb">
-                            <img src="assets/images/testimonial/2.png" alt="author">
-                          </div>
-                          <div class="testimonial__author-designation">
-                            <h6>Iffath Iftekhar</h6>
-                            <span>Course - Data Analytics</span>
-                          </div>
-                        </div>
-                        <div class="testimonial__quote">
-                          <span><i class="fa-solid fa-quote-right"></i></span>
-                        </div>
+                      </p>
+                      <div class="testimonial__read-more">Read More</div>
+                      <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
-                <div class="testimonial__item testimonial__item--style1">
-                  <div class="testimonial__item-inner">
-                    <div class="testimonial__item-content">
-                      <p class="mb-0">
-                        Sincere teacher, goes above and beyond to help you understand concepts and solve queries.
-                      <div class="testimonial__footer">
-                        <div class="testimonial__author">
-                          <div class="testimonial__author-thumb">
-                            <img src="assets/images/testimonial/2.png" alt="author">
-                          </div>
-                          <div class="testimonial__author-designation">
-                            <h6>Shreyansh</h6>
-                            <span>Course - Algo Trading with Python</span>
-                          </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="testimonial__item testimonial__item--style1">
+                <div class="testimonial__item-inner">
+                  <div class="testimonial__item-content">
+                    <div class="testimonial__footer">
+                      <div class="testimonial__author">
+                        <div class="testimonial__author-thumb">
+                          <img src="assets/images/logo/alogo.png" alt="author">
+                        <div class="testimonial__author-designation testimonial__quote">
+                          <h6>Shreyansh</h6>
+                          <span>Course - Algo Trading with Python</span>
+                          <span><i class="fas fa-quote-right"></i></span>
                         </div>
-                        <div class="testimonial__quote">
-                          <span><i class="fa-solid fa-quote-right"></i></span>
-                        </div>
+                      </div>
+                      </div>
+                      <p class="testimonial__paragraph mb-0">
+                        Sincere teacher, goes above and beyond to help you understand concepts and solve queries. Sincere teacher, goes above and beyond to help you understand concepts and solve queries.
+                      </p>
+                      <div class="testimonial__read-more">Read More</div>
+                      <div class="testimonial__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div>
+                        <li class="social__item">
+                          <a href="https://www.linkedin.com/in/shreyanshdaga/" class="social__link social__link--style1 active"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
                       </div>
                     </div>
                   </div>
@@ -1298,7 +1550,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  
   <!-- ===============>> Testimonial section ends here <<================= -->
 
 
@@ -1835,6 +2089,18 @@
   <a href="#" class="scrollToTop scrollToTop--home1"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
   <!-- ===============>> scrollToTop ends here <<================= -->
 
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const readMoreButtons = document.querySelectorAll(".testimonial__read-more");
+      readMoreButtons.forEach(button => {
+        button.addEventListener("click", function () {
+          const testimonialItem = this.closest(".testimonial__item-content");
+          testimonialItem.classList.toggle("expanded");
+        });
+      });
+    });
+  </script>
 
   <!-- vendor plugins -->
 
