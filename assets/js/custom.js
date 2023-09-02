@@ -338,11 +338,11 @@ window.addEventListener('scroll', function () {
         if (window.pageYOffset > 300) {
             scrollToTop.style.bottom = '7%';
             scrollToTop.style.opacity = '1';
-            scrollToTop.style.transition = 'all .5s ease';
+            scrollToTop.style.transition = 'all .10s ease';
         } else {
             scrollToTop.style.bottom = '-30%';
             scrollToTop.style.opacity = '0';
-            scrollToTop.style.transition = 'all .5s ease';
+            scrollToTop.style.transition = 'all .10s ease';
         }
     }
 });
