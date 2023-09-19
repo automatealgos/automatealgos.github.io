@@ -8469,7 +8469,7 @@ textarea:focus-within {
   color: var(--brand-color);
 }
 .sidebar__categorie-body ul li a i {
-  color: var(--text-color-light);
+  color: #000000;
 }
 .sidebar__social {
   background-color: var(--wh-color);
