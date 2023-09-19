@@ -8461,7 +8461,7 @@ textarea:focus-within {
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-  color: var(--title-color);
+  color: #000000;
 }
 .sidebar__categorie-body ul li.active span,
 .sidebar__categorie-body ul li.active a, .sidebar__categorie-body ul li:hover span,
