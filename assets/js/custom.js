@@ -354,7 +354,7 @@ if (scrollToTop) {
     // Click event to scroll to top
     scrollToTop.addEventListener('click', function (e) {
         e.preventDefault();
-        var scrollDuration = 100; // Set scroll duration in milliseconds
+        var scrollDuration = 25; // Set scroll duration in milliseconds
         var scrollStep = -window.scrollY / (scrollDuration / 15);
         var scrollInterval = setInterval(function () {
             if (window.scrollY !== 0) {
