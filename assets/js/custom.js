@@ -338,11 +338,11 @@ window.addEventListener('scroll', function () {
         if (window.pageYOffset > 300) {
             scrollToTop.style.bottom = '7%';
             scrollToTop.style.opacity = '1';
-            scrollToTop.style.transition = 'all .10s ease';
+            scrollToTop.style.transition = 'all .5s ease';
         } else {
             scrollToTop.style.bottom = '-30%';
             scrollToTop.style.opacity = '0';
-            scrollToTop.style.transition = 'all .10s ease';
+            scrollToTop.style.transition = 'all .5s ease';
         }
     }
 });
@@ -354,7 +354,7 @@ if (scrollToTop) {
     // Click event to scroll to top
     scrollToTop.addEventListener('click', function (e) {
         e.preventDefault();
-        var scrollDuration = 25; // Set scroll duration in milliseconds
+        var scrollDuration = 200; // Set scroll duration in milliseconds
         var scrollStep = -window.scrollY / (scrollDuration / 15);
         var scrollInterval = setInterval(function () {
             if (window.scrollY !== 0) {
